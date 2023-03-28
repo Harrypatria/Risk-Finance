@@ -8,7 +8,6 @@ The UI server is defined next. It consists of a title panel and a sidebar layout
 
 The server is defined next. It contains one output called pairs.1, which is defined using the renderPlot() function. This function calls the risk.sim() function with the three correlation values obtained from the slider inputs provided by the user. The output of risk.sim() is then plotted using the pairs.panels() function from the psych package.
 
-
 Finally, the app is run using the shinyApp() function, which takes the UI and server as arguments.
 
 When the app is run, the user can interact with the three slider inputs to change the correlation values for the simulation. The risk.sim() function then generates 1000 sets of random numbers based on these correlations, calculates the corresponding revenue, costs, and margins, and returns a data frame containing these values. The output of risk.sim() is then plotted using the pairs.panels() function, which displays a scatterplot matrix of the revenue, total cost, and operating margin values. The resulting plot provides a visual representation of the relationship between the different risk factors and their impact on the overall profitability of the enterprise.
