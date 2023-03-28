@@ -1,4 +1,4 @@
-### Risk Finance
+### Risk Estimate in Finance Industry
 
 The code starts by loading the necessary libraries for the Shiny app to run: shiny, mvtnorm, and psych.
 
